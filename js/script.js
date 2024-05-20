@@ -17,6 +17,7 @@ function openHeader() {
     page.style.display = 'none'
     main.style.display = 'none'
     headerMobilec.style.display = 'block'
+    footer.style.display = 'none'
 }
 function closeHeader() {
     nav.style.display = 'none'
@@ -25,7 +26,7 @@ function closeHeader() {
     page.style.display = 'block'
     main.style.display = 'block'
     headerMobilec.style.display = 'none'
-
+    footer.style.display = 'block'
 }
 const words = ["product analytics", "customer data", "sales performance"];
 let currentWordIndex = 0;
