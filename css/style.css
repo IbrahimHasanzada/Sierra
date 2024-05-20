@@ -107,7 +107,7 @@ header .container {
     width: 100%;
 }
 .footer-flex ul li{
-    display: inline-block;
+    display: table;
 }
 .footer-flex ul li:hover .line{
     width: 100%;
