@@ -327,20 +327,20 @@ header .container {
     border-radius: 8px;
 }
 #second-img-first{
-    max-width: 320px;
+    max-width: 100%;
 }
 #second-img{
-    max-width: 320px;
+    max-width: 100%;
     z-index: 1; 
     margin: 20px 0;
 }
 #second-img-third{
     transition: all 1.5s;
-    max-width: 320px;
+    max-width: 100%;
 }
 #second-img-four{
     transition: all 1.5s;
-    max-width: 320px;
+    max-width: 100%;
     z-index: 1; 
     margin: 20px 0;
 }
@@ -1079,13 +1079,21 @@ header .container {
         margin-left: -100px;
     }
     #second-img-four{
+        max-width: 320px;
         margin-left: -100px;
     }
     #container-2{
         flex-direction: row;
     }
     #second-img-first{
+        max-width: 320px;
         transition: all 1.5s;
+    }
+    #second-img{
+        max-width: 320px;
+    }
+    #second-img-third{
+        max-width: 320px;
     }
     #section-4-plan{
         padding: 50px !important;
